@@ -1,0 +1,11 @@
+@import "~bootstrap/dist/css/bootstrap.css";
+
+.glyphicon {
+  color: #ccc;
+  cursor: pointer;
+  margin: 2rem 2rem;
+}
+
+.clicked {
+  color: deeppink;
+}
