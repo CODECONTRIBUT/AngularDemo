@@ -6,7 +6,8 @@ import { AppComponent } from './app.component';
 import { TweetComponent } from './tweet/tweet.component';
 import { ZippyComponent } from './zippy/zippy.component';
 import { ControlFormComponent } from './control-form/control-form.component';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { ChangePasswordComponent } from './change-password/change-password.component';
 
 @NgModule({
   declarations: [
@@ -14,11 +15,13 @@ import { FormsModule } from '@angular/forms';
     TweetComponent,
     ZippyComponent,
     ControlFormComponent,
-    SignupFormComponent
+    SignupFormComponent,
+    ChangePasswordComponent
   ],
   imports: [
     BrowserModule,
-    FormsModule
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
