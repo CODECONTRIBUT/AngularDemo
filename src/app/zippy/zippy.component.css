@@ -1,0 +1,17 @@
+.zippy {
+  width: 30%;
+  margin: 2rem 2rem;
+}
+.heading {
+  border: 1px solid gray;
+  cursor: pointer;
+}
+.body {
+  border: 1px solid gray;
+}
+.isExpanded {
+  background-color: gray;
+}
+.glyphicon {
+  float: right;
+}
